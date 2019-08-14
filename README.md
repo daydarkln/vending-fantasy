@@ -1,3 +1,9 @@
+To run server json-server required to be installed globally
+### `npm install -g json-server`
+
+After that just run
+### `json-server ./db.json -p=3001`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
