@@ -1,0 +1,15 @@
+{
+  "account": {
+    "name": "Tom",
+    "balance": 10000
+  },
+  "vendingList": [
+    {
+      "id": 1,
+      "src": "",
+      "title": "Coca-cola",
+      "count": 10,
+      "cost": 100
+    }
+  ]
+}
