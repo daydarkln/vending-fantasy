@@ -6,9 +6,9 @@
   "vendingList": [
     {
       "id": 1,
-      "src": "",
+      "src": "https://nosorog.cafe/wp-content/uploads/2017/12/Coca-cola-0.5-600x600.jpg",
       "title": "Coca-cola",
-      "count": 10,
+      "count": 2,
       "cost": 100
     }
   ]

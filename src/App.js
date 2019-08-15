@@ -13,7 +13,7 @@ function App() {
       <Layout>
         <HeaderComponent />
         <Content style={{ padding: "0 50px", marginTop: 64 }}>
-          <Route path="/" component={List} />
+          <Route path="/list" component={List} />
         </Content>
         <Footer style={{ textAlign: "center" }}>Super puper</Footer>
       </Layout>
