@@ -49,7 +49,7 @@ const List = props => {
           <div className="item__cost">{item.cost}</div>
           <div className="item__count">{item.count}</div>
           <div className="item__action">
-            <Button onClick={() => props.buyItem(props, item.id)}>
+            <Button disabled={item.count === 0} onClick={() => props.buyItem(props, item.id)}>
               купить
             </Button>
           </div>

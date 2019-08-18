@@ -15,7 +15,6 @@ const HeaderComponent = props => (
     <Menu
       theme="dark"
       mode="horizontal"
-      defaultSelectedKeys={"1"}
       style={{ lineHeight: "64px" }}
     >
       <Menu.Item key="1">
@@ -26,17 +25,13 @@ const HeaderComponent = props => (
       </Menu.Item>
     </Menu>
     <div className="header__profile">
-      <Get path="/account">
-        {res => (
-          <div className="df aic">
-            <Avatar icon="user" />
-            <div className="df fdc header__info">
-              <span>{pathOr("", ["name"], res)}</span>
-              <span>Баланс: {pathOr("0", ["balance"], res)}р</span>
-            </div>
-          </div>
-        )}
-      </Get>
+      <div className="df aic">
+        <Avatar icon="user" />
+        <div className="df fdc header__info">
+          <span>{pathOr("", ["account", "name"], props)}</span>
+          <span>Баланс: {pathOr("0", ["account", "balance"], props)}р</span>
+        </div>
+      </div>
     </div>
   </Header>
 );

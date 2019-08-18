@@ -21,7 +21,6 @@ export default withHandlers({
     ).count;
 
     const updatedList = alter(count - 1, id, props.vendingList);
-    debugger;
     props.putAccount(id, updatedList[0]);
   }
 });

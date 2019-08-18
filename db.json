@@ -1,15 +1,32 @@
 {
   "account": {
     "name": "Tom",
-    "balance": 10000
+    "balance": 99988799,
+    "undefined": [
+      "balance"
+    ]
   },
   "vendingList": [
     {
       "id": 1,
       "src": "https://nosorog.cafe/wp-content/uploads/2017/12/Coca-cola-0.5-600x600.jpg",
       "title": "Coca-cola",
-      "count": 2,
-      "cost": 100
+      "count": 0,
+      "cost": 700
+    },
+    {
+      "id": 2,
+      "src": "https://nosorog.cafe/wp-content/uploads/2017/12/Coca-cola-0.5-600x600.jpg",
+      "title": "Coca-cola",
+      "count": 37,
+      "cost": 700
+    },
+    {
+      "title": "qwerty",
+      "src": "",
+      "count": 10,
+      "cost": 10,
+      "id": 3
     }
   ]
 }
